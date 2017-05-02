@@ -1,0 +1,847 @@
+************************************************************************
+1:
+************************************************************************
+Umfang der Must Haves erscheint angemessen. Die Idee ist sinnvoll und nachvollziehbar beschrieben. Nutzen anhand der genannten Beispiele nicht erkennbar (Ticketverkäufer bieten normalerweise Benachrichtigungen bei Verfügbarkeit an). Es gibt aber sicherlich konkrete Beispiele, die besser sind.
+Bezug zur Vorlesung ist erkennbar: Webserver + E-Mailing
+Gliederung erkennbar.
+Hinweise:
+Uns ist nicht klar, wofür die Editoren 2.1 verwendet werden sollen und was der Unterschied zwischen grafisch und textuell bei einem Webinterfaces ist. (Gehört dieser Teil nicht eher in das Lasten/Pflichtenheft, als in die Skizze?)
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Wir denken das Projekt ist vom Unfang her relativ groß und relativ komplex. Die Umsetzung wird nicht einfach aber 
+mit etwas Recherche und Eigeninitiative sollte es zu schaffen sein.
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Nein.
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Aufgabenstellung ist klar, man weiß was das genaue Ziel des Projektes ist.
+- Ist der Bezug zur Vorlesung erkennbar?
+Es muss ein Server konfiguriert werden, somit ist ein Bezug zur Vorlesung erkennbar.
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Ja, ich glaube jeder kennt das Problem und der Einsatzberich ist sehr vielfältig.
+- Gibt es schon fertige Lösungen für das Problem?
+Ja uns ist eine App bekannt die eigentlich genau das macht was beschrieben wurde.
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ja.
+Das Thema ist vom Umfang und von der Schwierigkeit angemessen aber dennoch anspruchsvoll, da ein Webserver aufgesetzt und konfiguriert werden muss. Dadurch wird auch ein Bezug zur Vorlesung hergestellt, da dies administrative Aufgaben beinhaltet.  Die Aufgabenstellung klingt durchaus sinnvoll und bringt einen Nutzen, da durch das automatisierte Abrufen von �nderungen auf Webseiten Arbeit f�r den Nutzer abnimmt. Fertige L�sungen sind durchaus vorhanden, wie z.B. der �Page Monitor� oder das Programm �WebSite-Watcher�. Die Gliederung ist der in der Vorlesung besprochenen Gliederung nachempfunden, bis auf den Gantt-Plan, jedoch zeigt dieser sehr gut den genauen Ablauf des Projekts. 
+Umfang: Umfangreich
+ 	-	Der Hintergrundprozess soll Webseiten auf graphische und textuelle Ver�nderungen
+ 		pr�fen
+ 
+ 		Dies m�sste konkretisiert werden -> Merkmale/Kriterien
+
+ 		Der Nutzer m�chte nicht bei irrelevanten Ver�nderungen informiert werden
+Eigene Lösungsideen: Eine Implementierung auf mobilen Devices als Push-Up Nachricht
+Aufgabenstellung sinnvoll/nachvollziehbar: Idee und Anforderungen sind nur teilweise nachvollziehbar
+Bezug zur Vorlesung: Bezug ist da, da durch Servereinrichtung
+Erkennbarer Nutzen: Nutzen ist deutlich erkennbar
+Fertige Lösungen: Diverse Implementierungen bereits im Netz
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Das Thema ist angemessen für die Vorlesung.
+	Es beinhaltet Nutzerverwaltung, Server Arbeiten, Analyse anderer Systeme.
+-	Was nicht ganz klar ist: was sind grafische - und textuelle Veränderungen? 
+	(HTML, Neue Bilder , Neuer Text, Hintergrund Änderungen).
+-	Eine Idee, zum Erweitern: Eine Anzeige von Statistiken,
+	Statistiken über gemeinsam "getrackte" Web-Inhalte in einer Art "Top Ten Lsite".
+-	Der Nutzen ist ganz klar gegeben. Zum Beipspiel um Bei Auktionen, limitierte Verkäufe, Nachrinten ... immer aktuell zu sein.
+-	Vorhandene Lösungen sind zum Beispiel: VisualPing, Page Monitor (Chrome Extension) ohne E-Mail Funktion, AlertBox (Firefox).
+1
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Inhalt angemessen
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+�nderungssystem wie Git verwenden -> �nderungen speichern
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Ja, �hnliche. z.B. visualping.io
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ja
+
+
+
+************************************************************************
+2:
+************************************************************************
+-	Genaue Ziel ist mir nicht ersichtlich
+
+ 		-	Wie soll die Zielumsetzung aussehen?
+ 				-> Vorgehen
+ 				-> usw.
+
+		 -	Was sind die funktionalen und nicht-funktionalen Anforderungen?
+
+ 		-	Wie sieht der Zeitplan aus?
+ 				-> Gantt-Diagramm
+
+ 	-	Generell etwas detaillierterUns ist nicht klar, was das Ziel des Projektes ist. Was soll genau gemacht werden? Daher können wir zu den restlichen Punkten nichts sagen, ausser dass die Gliederung erkennbar ist.
+ -Umfang könnte, je nachdem wie gut die Daten analysiert werden sollen angemessen sein.
+- Leider keine Erfahrung mit dem Thema, folglich kann ich keine Lösungsvorschläge geben.
+- Durch die Skizze ist mir die Aufgabe nachvollziehbar. Die Aufgaben wurden in verschiedene Phasen unterteilt, was gut ist, jedoch hätte man es auch etwas ausführlicher beschreiben können.
+- (Bezug ist erkennbar).
+- Die Lösung könnte zum verwalten von Log Daten bei einem größeren Server sehr hilfreich sein
+- Im Internet findet man Log File Programme, jedoch weiß ich leider nicht, in wie weit sich diese mit dem hier überschneidet, folglich kann ich keine genaue Auskunft geben.
+- Ich finde die Gliederung mangelhaft. Das nötigste ist zwar vorhanden, jedoch fehlen noch viele weitere Aspekte wie die "Should Have" "Must Have" Aufteilung als Beispiel.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Der Arbeitsumfang sollte in etwa passen. Wobei der Umfang je nach Art der Auswertung der Daten sehr schnell extrem
+ansteigen kann.
+Umfang: Eher umfangreich
+Eigene Lösungsideen: Highlighting wichtiger Log-File Meldungen
+Aufgabenstellung sinnvoll/nachvollziehbar: Aufgabenstellung ist nicht nachvollziehbar. Detaillierteres Auflisten der Probleme und Anforderungen wäre sinnvoll
+Bezug zur Vorlesung: Ja, durch die Datenbankenadministration
+Erkennbarer Nutzen: Nicht klar erkennbar, da es bisher zu grob umschrieben wurde
+Fertige Lösungen: Uns nicht bekannt
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Nein.
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Aufgabenstellung ist klar, Ziel des Projektes auch.
+- Ist der Bezug zur Vorlesung erkennbar?
+Ein kleiner bezug ist da. Allerdings ist der Konfigurations/Administarations Anteil im Projekt nicht so sehr groß im 
+Vergeleich zum Programmierteil.
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Jain. Es gibt Bereits Software die so etwas kann.
+- Gibt es schon fertige Lösungen für das Problem?
+Ja.
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Nicht wirklich vorhanden.
+-	Das Thema ist interesant und vom Umfang her gut.
+-	Was nicht ganz klat ist: wird es ein Live-System also werden Log-Files während dem Betrieb Analysiert?
+	Und die Allgemeine Vorgehensweise.
+-	Daten zu Analysieren und Verwerten ist immer gefragt.
+-	In der Projektskizze fehlt dass Gant Diagramm.
+-Begriffserklärung fehlt (Big Data, Hadoop, NoSQL etc.)
+-Zeitplan fehlt
+-Präzise Anforderungen fehlen: Welche "Informationen und Korrelationen" sollen auf welche Art und Weise visualisiert werden?
+-Marktanalyse fehlt
+-Ist der Zugang zum Webserver der Hochschule bereits geklärt?
+-Ist der Webserver der Hochschule für diese Aufgabe überhaupt geeignet? Wenn ja, wieso?
+Das Projekt befasst sich mit Log-Files und deren Filterung von informationellen Daten. Das Thema wird dem Anspruch der Vorlesung gerecht und ist nicht zu schwer gew�hlt. Die Aufgabenstellung ist nachvollziehbar gestaltet und durch die Filterung der Log-Files und Aufsetzen eines Webservers ist der Bezug zur Vorlesung erkennbar. Die Aufgabenstellung bringt einen erkennbaren Nutzen, da durch dieses Projekt gro�e, teils unn�tze Mengen an Daten in Log-Files gefiltert und sortiert werden und dem Nutzer so vereinfacht pr�sentiert werden. Die Gliederung ist sinnvoll gew�hlt und kurz und pr�gnant beschrieben.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Aufgabenstellung nicht klar/ zu breit: k/a
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Aufgabenstellung nicht klar/ zu breit: k/a
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Nein. Es wird im Prinzip nur das Problem beschrieben
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Das Problem existiert.
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Es gibt Logfile analyzer
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+
+
+
+************************************************************************
+3:
+************************************************************************
+
+Umfang: Je nach Implementierung umfangreicher oder weniger umfangreich
+
+Eigene Lösungsideen: Bei Deadlines von bestimmten Listenpunkten Push-Up Nachrichten versenden
+Aufgabenstellung sinnvoll/nachvollziehbar: Ist sinnvoll, allerdings zu undetailliert
+Bezug zur Vorlesung: Absolut, durch Servernutzung
+Erkennbarer Nutzen: Nutzen ist klar erkennbar
+Fertige Lösungen: Bereits einige in verschiedensten Variationen
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Wie lautet der Titel?
+
+ 	-	Ziel nicht eindeutig
+
+ 	-	Listen genauer definieren
+ 			-> kein klares Bild davon, was das Ziel ist
+
+ 	-	"verschiedene serverseitige L�sungen"
+ 			-> Wie sollen die aussehen?
+ 			-> Was sind das f�r L�sungen -> Beispiele/Namen
+
+ 	-	Wie sieht der Zeitplan aus?
+ 			-> Gantt-Diagramm
+Umfang ist in Ordnung. 
+
+Es gibt für jeden Listentyp bereits Apps. Ist das Problem nicht eher, dass man viele Apps benötigt und die Lösung eine App dafür? Das wär cool.
+Für was wird ein Server mit PHP benötigt? 
+Vielleicht sollte man den Begriff Liste genauer definieren. 
+-Umfang könnte durch Konfigurieren einen Servers + eine dazugehörige App zu entwickeln vielleicht (je nachdem) zu viel Umfang haben. Mit genug Motivation sollte aber auch dies machbar sein.
+- Lösungsansatz: Vielleicht könnte es sinnvoll sein, die Tabellen in verschieden Datenbanken aus zu lagern. Man muss auch darauf achten wie man festlegt, wer die Dateien bearbeiten darf und wer nicht, dass Daten nicht verloren gehen können. Auch über Backups sollte man sich Gedanken machen.
+- Durch eine sehr detailreiche Skizze mit Beschreibung ist mir sowohl der Ablauf als auch die Arbeit klar geworden
+- (Bezug ist erkennbar).
+- Für den privaten Zweck könnte sie von nutzen sein, je nachdem ob man sich eben die Mühe macht die listen einmal für immer an zu legen, oder lieber spontan packt bzw sich jedes mal lieber neue Listen erstellt. Für planende Urlauber z.B. ist das Tool jedenfalls hilfreich.
+- Es gibt online mehrere seiten, um sich eigene ToDo Lists an zu legen, jedoch habe ich diese selbst noch nie benutzt.
+- Die Geplante Gliederung ist meines erachtens nach sehr sinnvoll, da sie die Sachen in der Richtigen Reihgenfolge machen wollen + nebenbei immer Tests + Fixing betreiben wollten. Einzig die "Should Have" und "Must Have Funktionen haben mir noch gefehlt, welche Betriebssysteme zum Beispiel vorrang haben. (Android > IOS > Windows Phone?)
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Relativ umfangreich, da eine eigene App und ein Server nötig sind. Sollte aber mit vorhandenen Kenntnissen in den
+Bereichen zu schaffen sein.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Verwenden von Techniken aus dem Fach Webprogrammierung oder Mobile Anwendungen 3.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja. Aber auch hier steht der administartive Teil eher im Hintergrund.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Für uns persönlich eher weniger. Aber es gib bestimmt Leute die damit was anfangen können.
+
+- Gibt es schon fertige Lösungen für das Problem?
+Keine die uns bekannt sind.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Sinvoll und plausiebel.
+-	Die Umsetzung des Themas ist gut möglich.
+-	Was nicht ganz klar ist: Was für ein Server System wird verwendet (Apache)?
+	Wie und Wo können die Listen erstellt werden?
+	Wird es wirklich nur eine PHP FUnktion auf dem Server geben?
+-	Ähnliche Umsetzungen sind zum Beipsiel: Haspa (IOS),  Urlaubsliste (IOS), Wunderlist.
+-Die verschiedenen Projektphasen sollten noch Start- und Endtermine erhalten
+-Die Aufgabenstellung, insbesondere der Serverteil ist noch sehr vage: 
+Sollen Listen öffentlich zugänglich, bzw. geteilt werden? Wenn ja: Wie werden die Listen organisiert, wie sieht es mit dem Datenschutz aus? Wenn nein: Warum werden die Listen nicht einfach nur auf dem Smartphone gespeichert?
+-Es gibt bereits extrem viele Listen-Apps, meist sind Lösungen schon vorinstalliert. Die Marktanalyse ist bei diesem Projekt besonders wichtig.
+Das Thema ist vom Umfang genau richtig gew�hlt und von der Schwierigkeit genau richtig. Die Aufgabenstellung ist sinnvoll und nachvollziehbar formuliert. Der Bezug zur Vorlesung wird durch das Aufsetzen eines Webservers und die Kommunikation mit einer Applikation gew�hrleistet. Das Projekt bringt einen erkennbaren Nutzen, da dem Nutzer die Arbeit in Form von aufsetzten von Standardlisten abgenommen wird. Die Gliederung des Projekts ist sinnvoll gew�hlt und sehr ausf�hrlich beschrieben. 
+3
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Angemessen
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+-
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Gr��tenteils
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Ja
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ja
+
+
+
+************************************************************************
+4:
+************************************************************************
+Lösungen/ Umsetzungen:
+https://www.hackster.io/search?per_page=21&q=weather&type=BaseArticle
+
+Uns ist nicht klar, was die angesprochene Modularität bedeutet. Soll das heißen, dass das System aus einzelnen vorhandenen Modulen „zusammengesteckt“ wird, oder heißt es, dass das System mit Modulen erweitert werden kann. Bsp: Ich will auch die Einstrahlung in w/m2 messen und stecke einen Einstrahlungssensor an und sehe die Messwerte automatisch auf dem Anzeigegerät?
+
+Bezug zur Vorlesung ist nicht direkt erkennbar, da ein System mit Linux ist nur als „Kann Ziel“ angegeben ist.
+
+Gliederung ist erkennbar.
+-	Mit welchen Mitteln ist die Umsetzung angedacht
+ 			-> Software
+ 			-> Hardware
+- Umfang sieht gut aus, vor allem da es eben Must Should und Can gibt und man somit den Arbeitsaufwand einfach kürzen kann
+- Es gibt onleine eine Anleitung (Mikrocontroller.net), wie man mit einem Microcontroller eine Wetterstation bauen kann, dies könnte sicher helfen
+- Mir ist durch die Beschreibungen klar geworden, welches Ziel die Gruppe verfolgt.
+- (Bezug ist erkennbar).
+- Dies könnte eine enorme Hilfe für Hobby Weterologen werden, um sich einfach eine Wetterstation zu bauen. Ausserdem ist es für jeden zugänglich, wenn er sich etwas in Microcontroller rein arbeitet. Von daher kann ich den Nutzen dahinter sehen.
+- Wie oben bereits gesagt gibt es dafür eine Anleitung, aber genau diese Lösung mit all dem Unfang habe ich nicht gefunden.
+- Die Gliederung ist nachvollziehbar und sieht gut aus, wobei man die Must Have vielleicht noch sortieren sollte um zu wissen, womit man am besten anfängt (Was baut worauf auf? Was muss ich zuerst haben um das machen zu können?)
+
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Sehr viel Hardware und Software. Wenn keine Vorkenntnisse vorhanden sind ist es vermutlich zu Umfangreich.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Microcontroller wählen der mögliches einfach ist. Bereits vorhandenen Schnittstellen zu Kommunikation verweden.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja, aber auch hier stehen Hard- und Software im Vordergrund und nicht die Administration.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Als Projekt sicherlich ganz cool. Der tatsächliche Nutzen wird eher Überschaubar sein.
+
+- Gibt es schon fertige Lösungen für das Problem?
+Nein.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ja.
+Umfang: Angemessen
+Eine Wetterstation wie diese ist im Umfang nicht zu unterschätzen. Man kann sie auch beliebig erweitern und somit den Umfang anpassen.
+Lösungsideen/ Hinweise: Kann sehr schnell, sehr groß werden.  
+Aufgabenstellung sinnvoll/nachvollziehbar: Sinnvoll erklärt, kurz und prägnant.
+Bezug zur Vorlesung: Vorhanden, Einrichtung eines Systems unter Beachtung der Standards.
+Erkennbarer Nutzen: Einfach zu benutzende Wetter-Station, auch für leihen bedienbar.
+Fertige Lösungen: Sind vorhanden aber sehr Teuer.
+Gliederung sinnvoll: Kurz und prägnant.
+-	Sehr gut.
+-Evtl. konkrete Beispielprodukte in der Marktanalyse nennen/analysieren
+-Das automatisierte Setup erscheint etwas ambitioniert zu sein, vielleicht sollte man sich zunächst auf ein funktionierendes Unikat beschränken, und die Automatisierung in die Kann-Kriterien verschieben
+-Insgesamt gut ausgearbeitete Dokumentation
+Das Projekt ist vom Umfang her angemessen. Die Aufgabenstellung ist nachvollziehbar und ausf�hrlich beschrieben, jedoch geh�ren die Muss-Kann-Soll- Kriterien eher ins Pflichtenheft, sind jedoch jetzt schon sehr hilfreich da diese das Projekt besser beschreiben. Der Bezug zur Vorlesung ist gegeben da ein Server f�r die Wetterstation aufgesetzt werden muss und dieser sich noch automatisch durch ein Skript konfiguriert. Au�erdem muss eine visualisierung der Daten durch z.B. Webseite durchgef�hrt werden. Die gezeigte Gliederung ist durchaus sinnvoll gew�hlt und passt zu der in der Vorlesung besprochenen Gliederung. 
+
+
+
+************************************************************************
+5:
+************************************************************************
+Tipp: Raspberry Pi 3 hat WLAN onboard. Falls der Fingerprint Sensor über den UART angeschlossen wird: Der Pi3 nutzt den onboard UART für den Bluetooth Chip. An den Pins ist nur ein Mini UART verfügbar, dessen Baudrate vom Prozessortakt abgeleitet wird. Dadurch schwankt die Baudrate bei CPU Last oder Taktwechsel, was den UART unbrauchbar macht.
+
+
+Warum muss man sich mit einem Fingerabdruck Scanner am WAP anmelden? Meldet man sich nicht an seinem Betriebssystem an und das OS kümmert sich um die WLAN Verbindung ? Wo im Komponentendiagram ist das Internet, zu dem man sich verbinden will?
+
+Gliederung erkennbar.
+	-	Wie lautet der Titel?
+
+	-	Zu viel Text zum Background. Das eigentliche Ziel ist nicht auf Anhieb ersichtlich
+			-> Auf den Punkt kommen
+
+	-	zu 4.1: theoretisch Kosten f�r einen mobilen Computer, was teurere ist wie ein Pi
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm 
+
+Aus der Skizze ist gut zu entnehmen was sich die Gruppe vorgenommen hat, jedoch fehlen zwei wichtige Punkte:
+-> Das Thema wirkt sehr umfangreich, und eine Aufteilung in "must-have" und "should-have" ist nicht zu erkennen.
+-> Es fehlt ein Ablaufplan des Projekts. Aus eigener Erfahrung kann ich versprechen, dass ungeahnte Probleme auftauchen werden, die sich so schnell nicht beseitigen lassen werden. Ein Plan in welcher Reihenfolge was erledigt werden muss, ist unverzichtbar.
+Das Projekt selbst erscheint mir für drei Personen umsetzbar. Man sollte sich aber Gedanken machen ob ein Raspberry ausreicht den gesamten Datentraffic verarbeiten zu können vor allem wenn dann noch Verschlüsselungen ins Spiel kommen und ob das Tor-Netzwerk so eine gute Idee ist. Ein VPN Router in ein Netz einer anderen Organisation wäre die bessere Wahl was Ping, Geschwindigkeit und vor allem Sicherheit angeht.
+Das Projekt selber scheint mir eine tolle Idee zu sein, wobei man viel neues dazulernen kann.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Ja sollte gut möglich sein.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Nein.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja, der Bezug ist sogar sehr gut aufgrund von vielen administrativen Vorraussetzungen.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Ja. Um annonym mit seinen mobilen Endgeräten zu surfen.
+
+- Gibt es schon fertige Lösungen für das Problem?
+Leider keine Erfahrungen auf dem Gebiet.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Wird nicht weiter darauf eingegangen.
+-	Gut bis auf das fehlende Gant Diagramm.
+-	Ähnliches Projekt ist: SpOnionPi.
+-Projektphasen werden nicht angegeben
+-Zweck des Fingerabrucksensors ist nicht angegeben
+-Umfang des Projektes scheint aus technischer Sicht vehältnismäßig klein
+-Projekt ähnelt stark dem OnionPi von Adafruit
+Die Gliederung der Projektskizze ist sinnvoll gew�hlt und passt zur Gliederung aus der Vorlesung. Die Aufgabenstellung klingt spannend und bringt auch einen Nutzen f�r die Nutzer, welche gerne �anonym� im Internet surfen wollen. Bezug zur Vorlesung ist auch erkennbar, da ja der Raspberry Pi richtig konfiguriert werden muss und auch ein Fingerabdruckscanner + Access Point mit ins System eingebunden werden soll. Erstmal klingt das Projekt relativ �berschaubar, da der Tor-Client verwendet wird. Daher kann ich nicht genau einsch�tzen, ob das Projekt vom Aufwand her vielleicht sogar etwas zu einfach gesetzt ist.
+5
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Angemessen
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+https://www.golem.de/news/anonymes-surfen-die-tor-zentrale-fuer-zu-hause-1507-114968.html
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+�hnliche aber keine P&P bekannt
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+ja
+
+
+
+
+************************************************************************
+6:
+************************************************************************
+Keine Gliederung. Problem und Nutzen unklar. Umfang nicht ausreichend. Aus Eigener Erfahrung: Raspberry Pi + Relais Board + Spannungsversorgung + Webinterface zum ein/ausschalten ca. 1 Tag Arbeit, wenn man die Grundlagen nicht kennt. In einer Gruppe + Grundlagen bekannt deutlich weniger (Image auf Pi Flachen dauert am längsten)
+Tipp: www.hackster.io
+ In der Skizze wird wunderbar beschrieben was benötigt wird, und was ganz grob daraus gebaut werden soll und das wars.
+Was genau will die Gruppe eigentlich umsetzen? Was war die Motivation, was ist das genaue Ziel und was könnte man eventuell noch hinzufügen?
+Ein zeitlicher Ablaufplan ist auch nicht vorhanden.
+Die Grundidee die man sich nur erahnen kann, klingt gut umsetzbar und lehrreich, wenn die notwendigen Kenntnisse in der Elektronik schon vorhanden sind. Jedoch gibt es Geräte dieser Art schon seit vielen Jahren zu kaufen was das Projekt nicht gerade innovativ macht. (Siehe definition "Projekt")
+Umfang: Angemessen
+Lösungsideen/ Hinweise:  SSIO - ähnliches Projekt.
+Aufgabenstellung sinnvoll/nachvollziehbar: Ja , aber sehr kurz.
+Bezug zur Vorlesung: Ja , da es hier auch um Benutzerverwaltung, und ein Linux System geht.
+Erkennbarer Nutzen: Nicht beschrieben, aber erkennbar.
+Fertige Lösungen: Smart Home (namhafte Hersteller) aber teuer.
+Gliederung sinnvoll: Sehr kurz, aber sinnvoll.
+-	Das Thema ist ungenügend beschrieben. Ansonsten ist das Thema Gut.
+-	Was nicht ganz klar ist: Mit wieviel Spannung können die Endgeräte versorgt werden?
+	Ist es Wechselspannung?
+	Ist es für den Mobilen Einsatz gedacht?
+	Wird es auf der Hompage eine User Verwaltung geben?
+
+-	Kein Gant Diagramm.
+-	Keine Anforderungen.
+-Unterteilung der Skizze entspricht nicht den Vorgaben → dringend Motivation, Einleitung, evtl. Zeitplan hinzufügen …
+-Umfang der bevorstehenden Arbeit trotzdem angemessen und der Bezug zur Vorlesung ist annehmbar erkennbar
+Das Projekt klingt sehr spannend und ist auf jeden Fall auch umsetzbar. Es sollte vom Umfang her auch ausreichend sein. Die Aufgabenstellung ist etwas zu wenig beschrieben. Bezug zur Vorlesung ist erkennbar und in der �smarten� Welt von heute ist das auch ein gefragtes Thema. Ob es was richtig innovatives wird, l�sst sich aus der Projektskizze nicht erahnen. Gibt allerdings auf dem SmartHome Markt schon sehr viel verwandte Produkte. Aber es muss ja nicht immer innovativ und neu sein.
+- Projektbeschreibung extrem kurz / zu wenige Informationen -> Was / Wieso und f�r was soll das Projekt umgesetzt werden? Ggf. einen Use-Case mit angeben.
+- Schaubild ist gut zur Veranschaulichung (y)
+- Es fehlen Anforderungskriterien und Projekt- / Zeitplanung?
+Konkretes Ziel beschreiben
+			-> Was ist der Nutzen?
+
+	-	Wie soll die technische Umsetzung erfolgen?
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+
+
+
+************************************************************************
+7:
+************************************************************************
+Umfang: Angemessen/Schwer
+Lösungsideen/ Hinweise:  https://likestagram.com
+Aufgabenstellung sinnvoll/nachvollziehbar: ja , Gut auskommentiert.
+Bezug zur Vorlesung: Ja
+Erkennbarer Nutzen: Ist vorhanden, aber evtl. ist die rechtliche Lage unklar.
+Fertige Lösungen:  Instagress / likestagram   - aber Teuer.
+Gliederung sinnvoll: Ja , Sehr gut Gegliedert.
+Bezug zur Vorlesung schwer erkennbar. Sollte man nicht ein System auf Basis von Linux umsetzen, das man administrieren muss? 
+Gliederung gut. Umfang des Projektes auch.
+Großes Lob, bei der Skizze hat man sich mal richtig Mühe gegeben. Die Gruppe wirkt mal richtig motiviert, hat sich vorher gut über das Thema informiert, und das Vorhaben scheint auch in dieser Form noch nicht zu existieren.
+Ein Zeitlicher Ablaufplan, oder wenigstens eine grafische Darstellung, in welcher Reihenfolge die bereits ausführlich beschriebenen Vorgänge des Projekts durchgeführt werden sollen, wäre noch wünschenswert.
+Das Projekt wirkt auf mich allerdings sehr groß und aufwendig. Eventuell sollte man einige Ideen vorerst in der Hinterhand behalten und nur umsetzen wenn noch genug Zeit dafür vorhanden ist.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Sehr Umfangreich und anspruchsvoll. Vielleicht eher etwas für eine Bachelorarbeit ?
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Leider keine Erfahrungen auf dem Gebiet. Aber nehmt euch nicht zu viel vor.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Einen Nutzen zwar schon, persönlich halte ich von solchen "Bots" allerdings nichts da sie einfach vieles Verfälschen
+und einem Dinge suggerieren die nicht stimmen.
+
+- Gibt es schon fertige Lösungen für das Problem?
+Wissen wir nicht.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ist nicht wirklich vorhanden.
+-	Sehr ausführlich Beschrieben. Gut.
+-	leider kein Gant Diagramm sonst super.
+-Projekt beherbergt einen immensen Aufwand, vielleicht sollte es auf ein soziales Netzwerk beschränkt werden
+-Bots verstoßen meist gegen die Nutzung der 'Terms of Use' oder AGBs der jeweiligen sozialen Netzwerke, was dem Projekt aus ethischer Sicht entgegenstehen könnte.
+-einzelne Projektphasen könnten noch beschrieben werden → vielleicht einen groben Zeitplan erstellen
+Die geplante Gliederung scheint mir sinnvoll und passt auch zu der Gliederung aus der Vorlesung. Allerdings sind mir pers�nlich viele Punkte zu umfangreich ausgef�hrt. Alleine die Einleitung mit 2 Seiten. Kann man das nicht kurz und knapp schreiben? Aus der Projektskizze wird auch nicht klar wo der Bezug zu Systemadministration ist. Es handelt sich ja um ein Tool. Liegt das sp�ter auf einem Webserver, der administriert werden muss? Ben�tigt man eine Datenbank? Wie sind die Berechtigungen? Allerdings bringt das Projekt einen Nutzen und findet auch Verwendung in den Social Medien. Es gibt �hnliche Umsetzungen, die mehrere soziale Netzwerke unterst�tzen, wie �RoboLike�(Nur Instagram und Twitter) oder �MonsterSocial�(Facebook, Instagram, Twitter, Pinterest, Tumblr). Aber es ist sicher ein interessantes Thema und auch umsetzbar.
+- Anfangs fehlt das Titelblatt bzw. zumindest die Projektbezeichnung? Ich wei� nicht um was es geht.
+- Sehr gelungene und ausf�hrliche Einleitung / Motiovation / Problembeschreibung (y)
+- Ggf. f�r Anforderungsanalyse Bulletpoints verwenden, f�nde ich �bersichtlicher
+- Ich f�nde es noch gut, wenn ihr eine Verbindung zur Vorlesung Systemadministration herstellen k�nnt.
+- Kein Projekt- / Zeitplan (Gantt-Diagramm)
+-	Wie lautet der Titel?
+
+	-	Einleitung: Fragestellung?
+
+	-	Bei Anforderungen: Zeigen das es Stichpunkte sind. -> l�sst sich besser lesen
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+
+************************************************************************
+8:
+************************************************************************
+Gliederung gut. Umfang des Projektes auch.
+Vielleicht wäre es noch cool, den Theatersaal grafisch darzustellen, damit man die Plätze per Klick auswählen kann.
+Siehe Eventim oder ähnliche Ticketplattformen.
+Die Skizze ist gut Strukturiert und enthält alle notwendigen Informationen.
+Das Projekt selbst ist zwar keine wirkliche Innovation, aber man kann viel dabei lernen, also ist das Thema doch gut geeignet.
+Man hat sich schon Gedanken über den Zeitlichen Ablauf gemacht.
+st das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Ist dem Umfang angemessen. Die meisten verwedeten Techniken sollten bereits bekannt sein.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Ich denke es sollte alles klar sein.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja, es bleiben keine Fragen offen.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Einen sehr konkreten sogar.
+
+- Gibt es schon fertige Lösungen für das Problem?
+Es gibt bestimmt einige Systeme die man übernehmen könnte. Die sind jedoch warscheinlich teuer und nicht sehr gut 
+angepasst.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Ja.
+Jedoch fehlt auch bei euch eine Einteilung in "must-haves" und "should-haves". Das Projekt könnte zu viel Zeit in Anspruch nehmen.
+Umfang: Angemessen/Aufwändig
+Lösungsideen/ Hinweise: Fertige Systeme wie CloudTicket.   
+Aufgabenstellung sinnvoll/nachvollziehbar: Reales Problem, Reale Lösung.
+Bezug zur Vorlesung: Ja , Server - Client 
+Erkennbarer Nutzen: Ist vorhanden, Könnte dem Theater vieles erleichtern.
+Fertige Lösungen: CloudTicket.
+Gliederung sinnvoll: Gliederung wie in der Vorlesung angedacht.
+-Aufwand, Nutzen, Projektgliederung sehen gut aus
+-Insgesamt gut ausgearbeitete Skizze
+Die Gliederung ist sinnvoll und passt auch zu der Gliederung aus der Vorlesung. Es gibt bereits genug L�sungen f�r diese Problemstellung. Allerdings ist es auch sicher sinnvoll eine Individuall�sung zu entwickeln und auch das Kartenreservieren vom Telefon auf eine Webseite zu verschieben. Der Bezug zur Vorlesung sehe ich auch in den Punkten Webserver und Datenbankserver gegeben. Nutzen wird das Projekt bei der Theatergruppe F�ramoos finden. Problematisch stelle ich mir zum einen die Sicherheit der Webseite vor und zum anderen wie setzt man die Anzeige der freien Pl�tze um. Es ist ja m�glich, dass ich mich noch in der Anzeige befinde und es reserviert parallel jemand anderes die Pl�tze. Aber es ist sicher ein interessantes Thema und auch umsetzbar.
+- Vielleicht w�re eine allgemeine Einf�hrung noch praktisch? Bspw. Wo ist die Gruppe ans�ssig, welche St�cke, wie kam Felix dazu, seit wann, wie lange gibt es die Gruppe schon etc.
+- Gantt Diagramm recht klein (schwer lesbar)
+- Ggf. w�re es noch gut wenn ihr die Verbindung zur Vorlesung Systemadministration herstellen k�nnt?
+- Die leeren Kapitel h�tte ich f�r die Projektskizze auskommentiert
+
+Wie soll die technische Umsetzung erfolgen?
+
+	-	Welche m�glichen Probleme bei einer Reservierung sollen wie gel�st werden?
+			-> Doppelbelegung
+			-> P�rchen m�chte unbedingt nebeneinander sitzen
+			-> usw.
+
+
+
+************************************************************************
+9: 
+************************************************************************
+Gliederung und Umfang OK.
+Vielleicht sollte noch umrissen werden, in wie weit der Roboter zum Bett findet. Je autonomer der Roboter das tun soll, um so komplizierter und aufwändiger wird das ganze.
+
+-Umfang erscheint angemessen
+-Umsetzung mit einem Roboters zur "Lieferung" des Kaffees in bezug auf wegfindung und der Gefahr des verschuttens scheinen gefahrlich.
+-Die Aufgabenstellung ist nachvollziehbar und die Funktion ist klar.
+-(Bezug ist erkennbar).
+-Definitive erleichterung des Alltags.
+-Zeitgeschaltete Kaffeemaschienen sind schon vorhanden allerdings ist die lieferung noch einmal ein neuer Aspekt.
+-Gliederung erscheint sinnvoll.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+	Das Thema ist vom Umfang angemessen.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+	Nein.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+	Die Aufgabenstellung ist nachvollziehbar.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+	Ja, die einzelnen Ergebnisse müssen auf einem Server ausgewertet werden und dem Nutzer zur Verfügung gestellt werden. 
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+	
+
+- Gibt es schon fertige Lösungen für das Problem?
+	Mir ist aktuell nichts Derartiges bekannt, wobei es bestimmt schon Bastlerprojekte für diese Aufgabe gibt.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+	Ja.
+Umfang: Sehr Umfangreich
+Eigene Lösungsideen/Hinweise: In einer späteren Version einen Kaffeevollautomaten ansteuern, da der Kaffee besser schmeckt
+Aufgabenstellung sinnvoll/nachvollziehbar: Erster Draft lässt erahnen wo die Reise hingeht, Doku bisher sehr gut visualisiert und erklärt, Idee hört sich sehr gut an
+Bezug zur Vorlesung: Sehr guter Bezug durch Servertechnologien und SSH Kommunikation
+Erkennbarer Nutzen: Der Nutzen ist erkennbar und nachvollziehbar, Idee ist sehr gut
+Fertige Lösungen: Professionelle Lösungen sind uns nicht bekannt
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Das Thema ist eine gute Idee, nur zu groß. wird würden die APPs also Optional setzten.
+
+-	Was nicht ganz klar ist: Wird der Roboter Intelligent (Pathfinding)?
+
+-	Kein Gant Diagramm.
+-Projekt ist sehr umfangreich, je nach Teamgröße noch im Rahmen des Machbaren
+-Gliederung ist klar erkennbar, jedoch ist ein grober Zeitplan hinzuzufügen
+-alles in Allem eine verrückte, aber gute Idee
+- Aufbaubild ist schlecht lesbar (kleine Schrift) ggf. hochkant?
+- Ich w�rde die Anforderungen noch klarer herausstellen bzw. auch in ein eigenes Kapitel. Momentan mischt ihr die Anforderungen mit in die Projektbeschreibung?
+- Bezug zur Vorlesung wird klar (y)
+- Ggf. w�re noch ein Zeitplan mit den jeweiligen Arbeitspaketen hilfreich?
+-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+
+	-	Wie soll der Roboter seinen Weg finden
+
+
+
+
+************************************************************************
+10: 
+Ergebnisse = Ziel ?
+************************************************************************
+Vielleicht sollte das Problem genauer beschrieben werden.  Das wird aus der Skizze nicht ganz klar.
+Warum Webinterface? Geht es nicht darum  einfacher einen freien Parkplatz zu finden, wenn man beispielsweise ins Parkhaus fährt? Benutzung von Handys und Laptops während der Fahrt bringt gewisse Probleme mit sich.
+
+Je nach Parkplatz muss man sich überlegen, wie die Ultraschall positioniert werden. Unterschiedlich Karosserie Höhen, Unterschiedliche Parkweisen, Bsp Parkplatz am C: gegenüberliegende Parkplätze auf freier Fläche, die nur mit Markierung getrennt sind. Bsp Parkplätze am LKT: Keine fest markierten Parkplätze. Wie werden die Sensoren Wetterfest? Wie schützt man die Sensoren gegen Beschädigung zb beim Dagegenfahren.
+
+Vielleicht wären alternative Sensoren interessant. (Kamera?)
+
+Umfang scheint in Ordnung zu sein.
+
+
+-Umfang erscheint angemessen.
+-Je nach Aufbau der Parkanlage konnen auch noch andere Sensoren verwendet werden so wie es bereits auf verschiedenen Parkanlagen vorhanden ist.
+-Genaue Umsetzung ist ein wenig unverstandlich erscheint aber prinzipiell nachvollziehbar.
+-(Bezug ist erkennbar).
+-Nutzen ist erkennbar.
+-Ja (Siehe bereits vorhandene Parkanlagen).
+-Gliederung erscheint sinnvoll.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+	Wir denken, dass das Thema vom Umfang her angemessen ist, obwohl es vermutlich nicht sehr schwer ist das Projekt umzusetzen.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+	Nein.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+	Die Aufgabenstellung ist nachvollziehbar.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+	Ja, die einzelnen Ergebnisse müssen auf einem Server ausgewertet werden und dem Nutzer zur Verfügung gestellt werden. 
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+	Gerade in Städten ist es oft schwer Parkplätze zu finden. Wenn das Projekt auf mehreren Parkplätzen umgesetzt wird, wäre es mit einer dazugehörigen App auf jeden Fall sinnvoll.
+
+- Gibt es schon fertige Lösungen für das Problem?
+	Auf der diesjährigen CeBIT wurde ein ähnliches Konzept vorgestellt.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+-	Wie lautet der Titel?
+
+	-	Das eigentliche Ziel ist nicht ganz ersichtlich
+			-> Wie korrelieren Distanzmessung zum Objekt und Status frei/belegt?
+
+	-	Welche weiteren Werte soll das Modul auswerten, au�er der Distanz?
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+Umfang: Sehr Umfangreich
+Eigene Lösungsideen/Hinweise: Studenten mit Autos befragen und in die Entwicklung mit einbeziehen
+Aufgabenstellung sinnvoll/nachvollziehbar: Erster Draft lässt erahnen wo die Reise hingeht
+Bezug zur Vorlesung: Sehr guter Bezug durch Servertechnologien und Hochschulmehrwert
+Erkennbarer Nutzen: Der Nutzen ist erkennbar und nachvollziehbar, Idee ist sehr gut
+Fertige Lösungen: Professionelle Lösungen vorhanden aber für die Hochschule vermutlich nicht bezahlbar
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Das Thema ist sehr interessant aber wird vermutlich etwas mehr Zeit in anspruch nehmen.
+-	Für welchen Zweck werden die Raspberry PI`s benötigt? Als Server oder um die Daten an den Server zu übertragen?
+    Der Server müsste sonst auch noch in die Kostenanalyse einfließen.
+   
+-   Das Gantt Diagramm fehlt.
+-   Weitere Möglichkeiten zur Lösung des Problems: 
+        -Magnetschalter an den Parkflächen anbringen wenn umgeschaltet wird steht ein Auto darauf, wenn nicht dann nicht. (Geht schneller,  weniger Rechenleistung nötig).
+        -Überwachungskameras Live auswerten, Object Detection. Dazu brauchen keine zusätzlichen Sensoren gebrauch.
+-Einleitung oder Grundmotivation in Zielsetzung erkennbar, wurden aber nicht ausdrücklich beschrieben
+-der Aufwand ist für ein 1-Mann-Projekt gerechtfertigt
+-der Vorlesungsbezug ist durch Aufsetzen und Administrieren des Webserver gegeben
+-ein Zeitplan o.ä. fehlt
+Der Umfang des Projektes ist im Rahmen und locker umsetzbar. Die Aufgabenstellung macht Sinn und bringt einen Nutzen f�r Autofahrer die schnell einen Parkplatz finden wollen. Vielleicht ist noch dar�ber nachzudenken ob es Sinn macht als Sensoren Induktionsspulen zu verwenden, aber spielt f�r Inhalt der Vorlesung keine Rolle. Denn grunds�tzlich ist der Bezug zur Vorlesung gegeben da ein Webserver aufgesetzt wird und eine Kommunikation zwischen den Raspberry und dem Server stattfindet. 
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Ja, es gibt hierf�r schon bekannte L�sungen
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Detailliert nicht, jedoch gibt es Apps die Parkpl�tze genauestens Anzeigen, vor allem in gr��eren Parkpl�tzen/-h�usern daran wird bereits gearbeitet
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja, ist von Nutzen von jedem Autofahrer
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Das Problem existiert, daher ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Die identische glaube ich nicht
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+- Nein, die Gliederung fehlt. Es fehlen zus�tzlich auch die Diagramme
+
+
+************************************************************************
+11:
+************************************************************************
+Es ist unklar, ob ein Bausatz für einen Quadcopter verwendet wird, oder ob dieser selbst entwickelt wird.
+Das Projekt wirkt sehr umfangreich.
+-	Welche Punke sind besonders wichtig bei der Umsetzung?
+
+	-	Was soll konkret (zus�tzlich) implementiert werden?	
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+
+Interessant an dem Projekt wäre auch der gesetzliche Rahmen. In wie weit ist es überhaupt gesetzlich möglich eine Drohne mit Autopilot auszustatten. Vielleicht auch im Hinblick auf die geplanten Gesetzesänderungen ab Mai (http://modellflugwelt.de/cloud38/2017/drohnen-gesetz/)
+-Umfang kann angemessen sein erscheint auf den ersten Blick allerdings zu leicht da es sich nur um ein dokument Verwaltungssystem handelt
+Je nach Umsetztung und Feature anzahl ist der Umfang allerdings angemessen.
+-Verwenden von vorhandenen Linux funktionen fur automatisierte E-mails.
+-Aufgabenstellung wurde sinnvoll beschrieben auch wenn einige Punkte noch besser beschrieben sein konnten.
+-Bezug ist auf jedenfall erkennbar.
+-Fur die Einzelkomponenten wurden mir ein paar Losungen einfallen (Automatisierte E-mails Thunderbird, Outlook, etc., Dateiverwaltungsprogramme).
+-Gliederung erscheint sinnvoll.
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+	Das Thema ist vom Umfang angemessen.
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+	Nein.
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+	Die Aufgabenstellung ist nachvollziehbar beschrieben, da alles drin steht was das Programm am Ende können soll.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+	Es wird ein Server benötigt, welcher alles verwaltet. Also, ja.
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+	Ja, Feedback wird anonymisiert und vieles wird automatisiert.
+	Professor wird entlastet. //Ist das ein Nutzen?
+
+- Gibt es schon fertige Lösungen für das Problem?
+	Höchst wahrscheinlich gibt es bereits schon ähnliche Anwendungen, da Projektmanagement ein wichtiges Thema ist, wobei mir jetzt spontan keine spezielle einfällt.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+	Ja.
+Umfang: Umfangreich
+Eigene Lösungsideen/Hinweise: -
+Aufgabenstellung sinnvoll/nachvollziehbar: Erster Draft lässt erahnen wo die Reise hingeht - dennoch fällt es uns schwer das komplette System nachzuvollziehen
+Bezug zur Vorlesung: Mehr Bezug geht nicht
+Erkennbarer Nutzen: Der Nutzen ist erkennbar und nachvollziehbar, Idee ist sehr gut
+Fertige Lösungen: Nicht vorhanden
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Das Problem wurde gut und gründlich erfasst.
+-	Der genaue Lösungsvorschlag fehlt und ist nur zwischen den Zeilen zu erahnen.
+-   Es fehlen die genauen Anforderungen an die Applikation, was auch mit der fehlenden Lösungsstrategie einhergeht.
+-   Es fehlt das Gantt Diagramm.
+-Die Skizze entspricht der in der Vorlesung angesprochenen Gliederung überhaupt nicht
+-Der Zeitplan fehlt
+-Bei der "Marktanalyse" wird ausschließlich das bestehende System, Moodle, erwähnt. Welche Alternativen gibt es?
+-Soll das Endprodukt tatsächlich nur für diese Vorlesung geeignet sein, und kein universelles Tool sein?
+-Die Anforderungen sind nicht priorisiert
+-"webbasierte Anwendung" ist viel zu allgemein. Details bitte.
+??? keine Projektskizze oder Beschreibung wie vorgegangen werden soll vorhanden. Es ist nur angegeben welches Problem besteht aber nicht wie das Problem gel�st werden soll. Keine Angaben �ber die ben�tigten Ressourcen.
+Keine Gliederung vorhanden oder unvollst�ndig.
+Bezug zur Vorlesung: nicht bewertbar, nicht gen�gend Infos.
+i- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+Ja! Ist ein vorhandenes Problem, das schon mehrfach die Runde macht
+
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Wird von der Gruppe in der Projektskizze gut analysiert
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja, ist von Nutzen von jedem Studenten
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Das Problem existiert, daher ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Nein!
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+- Ja, jedoch fehlen die Diagramme
+
+
+************************************************************************
+12:
+************************************************************************
+
+-Flugdatenauswertung und Autopilot scheinen im Umfang etwas zu schwierig zu sein da allerdings schon vorhandene Software mit verwendet wird erscheint der Umfang angemessen.
+-Leider habe ich bisher keinen Kontakt mit der Materie gehabt und kann keine Losungsideen oder Hinweise geben.
+-Ja die Aufgabenstellung erscheint sinnvoll und das Ziel des Projekts ist erkennbar.
+-(Bezug ist erkennbar)
+-Aufgabenstellung ergibt einen Nutzen
+-Durch Fehlenden kontakt mit der Materie kenn ich keine bereits fertige Losung, da allerdings schon geplant ist eine fertige open source Software zu benutzen sollten sich fertige umsetzungen finden konnen.
+-Gliederung erscheint sinnvoll.
+
+- Ist das Thema vom Umfang angemessen? Zu schwierig / zu leicht? Warum denken Sie das?
+	Wir denken das Projekt ist vom Umfang her angemessen, da es doch ein gewisser Aufwand ist, die GPS-Daten in Flugdaten umzurechnen.
+	Zusätzlich muss auch immer die aktuelle GPS-Position überprüft werden um ein abdriften vom Kurs zu erkennen und zu korrigieren.
+
+
+- Haben Sie Lösungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+	Nein.
+	
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+	Die Aufgabenstellung ist nachvollziehbar beschrieben, da alles drin steht was am Ende des Projekts raus kommen soll.
+
+- Ist der Bezug zur Vorlesung erkennbar?
+	Ja, da ein Server so wie die Verbindungen App-Server sowie Server-Quadcopter sowie in die jeweils andere Richtung funktionieren müssen.
+
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+	Ja, da es ein guter Schritt in Richtung autonome Drohnen ist.
+
+- Gibt es schon fertige Lösungen für das Problem?
+	Es gibt bereits Quadcopter, die über Smartphone/Tablet gesteuert werden und eine Steuerung per GPS durch das Setzen von Punkten auf der Karte von Haus aus unterstützen.
+
+- Ist die geplante Gliederung sinnvoll? Lässt sich die in der Vorlesung angesprochene Gliederung erahnen?
+Umfang: Eher Umfangreich
+Eigene Lösungsideen/Hinweise: GUI sollte sehr übersichtlich sein, da viele Einstellungsmöglichkeiten vorhanden
+Aufgabenstellung sinnvoll/nachvollziehbar: Erster Draft lückenhaft - aber wahrscheinlich im Projektverlauf nachvollziehbar
+Bezug zur Vorlesung: Bezug zur Vorlesung ist durch Serverarbeiten gegeben
+Erkennbarer Nutzen: Der Nutzen ist erkennbar und nachvollziehbar
+Fertige Lösungen: Diverse Tutorials im Internet aber dennoch anspruchsvoll
+Gliederung sinnvoll: Gliederung bisher nicht vollständig erkennbar
+-	Interessantes Thema aber es ist ein zu großer Aufwand für diesen Zeitrahmen.
+-	Als Testprojekt ist das ganze bestimmt machbar aber die Autopilot Software auf den Markt zu bringen wird, aus rechtlichen und flugsicherheitsbedingten Gründen, wahrscheinlich sehr schwierig!!
+-   Das Gantt Diagramm fehlt.
+-   Anforderungen an die Software fehlen, welche Daten werden vom Quadrocopter benötigt, welche Funktionen muss der Server mitbringen, wie läuft die Kommunikation zwischen Server und Drohne ab? Welche Karte soll verwendet werden? Google Maps?
+-   Meiner Ansicht nach ist der Server die größere Herausforderung als die App. Die App gibt nur Eingaben weiter, die der Server verarbeiten muss und der Drohne übermittelt.
+-   Werden die Flugdaten vor dem Start komplett übertragen oder soll die Drohne Live, während des Flugs, neue Ziele bekommen? So müsste eine Dauerhafte Verbindung von Server und Drohne vorhanden sein. Was passiert wenn die Verbindung abbricht? Was passiert wenn der Akku der Drohne schwach oder leer wird?
+-   Reicht der Speicher der Drohne für den Autopilot inklusive der gesamten Flugdaten?
+-   Je länger ich mich in dieses Thema hineindenke, desto mehr Fragen wirft es auf und desto komplexer stelle ich es mir vor. Vorallem für den realen Gebrauch. Mehrere einprogrammierte, autonome Flugbahnen die per App auswählbar sind, sind wahrscheinlich als Umfang genug, dort fehlt aber der Bezug zur Systemadministration, da kein Server benötigt wird.
+-   Ich würde das Thema (als Projekt für Systemadministration) noch einmal gründlich überdenken und gegebenenfalls einen anderen Anwendungsfall suchen und diesen lösen. Aber als Hobby ist das ganze bestimmt sehr interessant!!
+-Der Zeitplan fehlt
+-Muss, Kann, Soll fehlt
+-Werden die Daten nicht bereits durch die bestehende Flugsoftware aufgezeichnet?
+-Wie genau sollen die aufgezeichneten Daten "in mehr Flug- und Absturzsicherheit resultieren"?
+-In der Einleitung wird erst die Steuerung der Drohne erwähnt, dann nur noch die Aufzeichnung von Flugdaten
+-Das Projekt erscheint insgesamt zu umfangreich zu sein
+Die Schwierigkeit des Projekts sch�tze ich als hoch, aber machbar an. Wenn man Erfahrung mit Quadrocoptern hat dann ist das Projekt mit Sicherheit umsetzbar. Unter Umst�nden besteht die Gefahr dass man an zu vielen Problemen arbeiten muss die nichts mit der Vorlesung zu tun haben. Trotzdem gibt es gen�gend Punkte an denen der Bezug zur Vorlesung besteht z.B. der Webserver, die Kommunikation zwischen App und Server. 
+Der Nutzen des Projektes ist meiner Meinung gegeben und ich halte das Projekt f�r sehr spannend. Nat�rlich gibt es schon L�sungen, wie z.B. Autopilot(autoflight.hangar.com), aber trotzdem sehe ich einen gro�en Nutzen in dem Projekt vor allem wenn es gut dokumentiert wird und eine open source L�sung bietet.
+Ja! 
+Autopilotfunktion gibt es schon!
+
+	-	Flugdatenauswertung und Darstellung gibt es bereits
+			-> Was ist der Nutzen?
+			-> Kein neuer "Gewinn"
+
+	-	Wie soll die technische Umsetzung erfolgen?
+			-> Software
+
+	-	Wie sieht der Zeitplan aus?
+			-> Gantt-Diagramm
+- Haben Sie L�sungsideen / -hinweise? Kennen Sie verwandte Arbeiten?
+Wird von der Gruppe in der Projektskizze gut analysiert
+
+- Ist die Aufgabenstellung sinnvoll und nachvollziehbar beschrieben?
+Ja, ist von Nutzen von jedem Lieferanten und sehr zukunftsorientiert
+
+- Ist der Bezug zur Vorlesung erkennbar?
+Ja
+
+- Bringt die Aufgabenstellung einen erkennbaren Nutzen?
+Das Problem existiert, daher ja
+
+- Gibt es schon fertige L�sungen f�r das Problem?
+Nein! Keine endg�ltige
+
+- Ist die geplante Gliederung sinnvoll? L�sst sich die in der Vorlesung angesprochene Gliederung erahnen?
+- Ja, jedoch fehlen die Diagramme
+

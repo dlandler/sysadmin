@@ -1,0 +1,27 @@
+11.
+- Statt Codename Projekttitel angeben
+- Inhaltsverzeichnis fehlt
+- Ziel und Zielbestimmung ist deutlich
+- Kriterien sind nachvollziehbar
+- Abgrenzungskriterien eher vermeiden, detaillierte Beschreibung der geplanten Tätigkeiten
+- Anwendungsbereich und Zielgruppe klar definiert
+- Es wird nur gesagt was verwendet wird, aber nicht warum? Alternativen zu Swift, Apache Webserver, MongoDB etc
+- Testfälle erst bei der Ausarbeitung relevant
+
+12.
+- Problem nicht genau beschrieben
+- Abschnitt "Aufbau der Arbeit" gehört in der Form nicht in das Kapitel "Einleitung"
+- Anforderungen verständlich formuliert
+- Marktanalyse etwas ausführlicher, Beispiele für Produkte
+- "Aufbau der Arbeit" sollte in "Lösungen" genauer beschrieben werden
+- "Lösungen" sind nur Kriterien, aber keine gezielten Lösungsvorschläge
+- Ablaufdiagramm etwas übersichtlicher gestalten, Zeitangeben hinzufügen
+
+13.
+- Inhaltsverzeichnis fehlt, obwohl Überschrift vorhanden ist
+- Einleitung und Problem fehlen komplett
+- Kriterien sind nicht messbar, müssen konkreter formuliert werden (nicht als Fliesstext)
+- Abgrenzungskriterien eher vermeiden, detaillierte Beschreibung der geplanten Tätigkeiten
+- Zielgruppe und Nutzen wird deutlich 
+- Es wird nur gesagt was verwendet wird, aber nicht warum? Alternativen zu Phyton, Apache2 und MariaDB
+- Qualitätsanforderungen werden klar und deutlich dargestellt

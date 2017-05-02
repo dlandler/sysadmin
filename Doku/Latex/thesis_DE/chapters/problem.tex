@@ -1,0 +1,72 @@
+\chapter{Problem}
+\label{cha:Problem}
+
+Bereits vor dem Aufkommen von Big-Data haben Unternehmen Log-Files zur Gewinnung von Einblicken genutzt. Jedoch ist das Problem, dass durch das exponentielle Wachstum aller Datenquellen die Verwaltung und Analyse der Log-Files zu einer immer größeren Herausforderung wird. Log-Files enthalten eine große Menge an Informationen, wobei nicht alle für den jeweiligen Betreiber von gleicher Bedeutung sind. Zudem liegen die Informationen innerhalb der Log-Files in einem schlecht leserlichen Format vor, weshalb eine Analyse von relevanten Informationen und Korrelationen sehr aufwendig ist.
+
+Serverlogs können abhängig von dem Log-Level der jeweiligen Architektur sehr groß ausfallen, wodurch die manuelle Verwaltung und Analyse nahezu unmöglich wird. Andererseits ist die Analyse von System-Logs notwendig um beispielsweise potenzielle Sicherheitsrisiken und Netzwerkfehler erkennen zu können.
+
+Es gibt prinzipiell zwei Arten von Log-Files:
+
+\begin{enumerate}
+\item \textbf{Ereignis-Logs} -- ermöglichen einen umfassenden Überblick über die Funktionalität des Systems sowie allen Komponenten zu einem bestimmten Zeitpunkt.
+\item \textbf{Benutzer-Logs} -- ermöglichen einen detailierten Einblick in das Nutzerverhalten wie z.B. auf Webseiten. Durch die Analyse der Benutzer-Logs können genauere Informationen über das Verhalten der Benutzer gewonnen werden als mit gewöhnlichen Webanalyse-Diensten wie Google Analytics oder Omniture.
+\end{enumerate}
+
+Ein effizienter und automatisierter Prozess wird benötigt damit schnell und akkurat Muster erkannt werden können sowie die großen Datenmengen der Serverlogs erfolgreich bewältigt werden können. Andererseits laufen Unternehmen Gefahr wertvolle Informationen in der riesen Datenflut zu verlieren und dadurch einen datengestützen Wettbewerbsvorteil zu verlieren.
+
+\pagebreak
+
+\section{Webserver Log-File Analyse}
+\label{sec:WebserverLogs}
+
+Dig Logfile-Analyse bezeichnet den Prozess der gezielten Überprüfung und Auswertung eines Logfiles. Durch die Auswertung von Webserver Logs können allgemeine Informationen über das Verhalten und die Aktivitäten der Seitenbesucher gewonnen werden.
+
+Webserver Log-Files enthalten folgende Informationen:
+
+\begin{itemize}
+\item IP-Adresse und Hostname
+\item Zugriffszeitpunkt
+\item Vom User verwendeter Browser
+\item Vom User verwendetes OS
+\item Herkunftslink bzw. -URL
+\item Verwendete Suchmaschine inklusive genutzter Keywords
+\item Verweildauer
+\item Anzahl aufgerufener Seite
+\item Zuletzt geöffnete Seite vor dem Verlassen der Webseite
+\end{itemize}
+
+Eines der größten Probleme der Webserver-Logfile-Analyse wird durch das zustandslose HTTP Protokoll verursacht. Durch die separate Behandlung der Anfragen, behandelt der Webserver zwei verschiedene Seitenaufrufe eines Clients als zwei unterschiedliche Instanzen. Wodurch eine Analyse des Nutzerverhaltens deutlich erschwert wird.
+
+Um diesen Problemen entgegen zu wirken gibt es zwei gängige Lösungsmöglichkeiten:
+
+\begin{enumerate}
+\item \textbf{Vergabe einer Session-ID:} Die Session-ID ist eine serverseitig generierte ID, die im Browser des Nutzers gespeichert wird. Alle folgenden Anfragen eines Nutzers werden durch die vergebene ID kenntlich gemacht.
+\item \textbf{Nutzeridentifikation via IP-Adresse:} Nutzer werden über ihre eindeutige IP-Adresse erkannt und bei allen folgenden Anfragen durch diese identifiziert. Voraussetzung dafür ist die Zustimmung des Nutzers zur Erhebung seiner vollständigen IP-Adresse zu Analysezwecken. Ein weiteres Problem ergibt sich aus der dynamischen Vergabe von IP-Adressen oder durch die mehrfache Nutzung der gleichen IP-Adresse. 
+\end{enumerate} 
+
+\section{Log-Files des HRW Webserver}
+\label{sec:LogHRW}
+
+Für die Veranschaulichung des genannten Problems verwenden wir die Log-Files des Webservers der Hochschule Ravensburg-Weingarten. Zum aktuellen Zeitpunkt liegen uns die gewünschten Log-Files noch nicht vor, da dass Rechenzentrum mit dem Datenschutzbeauftragten noch in Rücksprache ist. Daher können wir auf den Inhalt und die geplante Analyse der Log-Files nicht detailliert eingehen. Einige Beispiele dafür wären:
+\begin{itemize}
+\item Welchen Browser wurde benutzt?
+\item Auf welcher Seite stand der Link, mit dem der Nutzer auf die Seite gekommen ist?
+\item Welche Suchmaschine wurde verwendet?
+\item Wie unterscheidet sich Surfverhalten von externen und internen Nutzern?
+\item Wie lang blieb Nutzer auf der Website?
+\item Korrelationen zwischen den Hochschul-Websiten, wie z.B. LSF, elearning etc.
+\end{itemize}
+
+\pagebreak
+
+\section{Geplante Umsetzung}
+\label{sec:GeplanteUmsetzung}
+
+Aufgrund der hohen Komplexität eines realen Computer-Clusters soll in diesem Projekt ein Prototyp entstehen, der ein virtuelles Computer-Cluster simuliert und dadurch die möglichen Funktionen eines realen Computer-Clusters veranschaulicht. Zudem soll der Prototyp einfach portierbar, skalierbar und nutzbar sein.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1.0\textwidth]{gantt}
+	\caption{Gantt-Diagramm}
+	\label{img:gantt}
+\end{figure} 

@@ -1,0 +1,20 @@
+version: '2'
+services:
+  hbase:
+    build: ./hbase
+    container_name: hbase
+    hostname: hbase
+    ports:
+     - "16010:16010"
+    depends_on:
+     - hadoop
+  hadoop:
+    build: ./hadoop
+    container_name: hadoop
+    hostname: hadoop
+    ports:
+     - "50070:50070"
+     - "8088:8088"
+    volumes:
+     - ./hadoop/mr-jobs-volume:/usr/local/hadoop/mr-jobs
+     - ./hadoop/mr-input-volume:/usr/local/hadoop/mr-input

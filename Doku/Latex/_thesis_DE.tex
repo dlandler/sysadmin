@@ -1,0 +1,75 @@
+%%% File encoding: UTF-8
+%%% äöüÄÖÜß  <-- keine deutschen Umlaute hier? UTF-faehigen Editor verwenden!
+
+%%% Magic Comments zum Setzen der korrekten Parameter in kompatiblen IDEs
+% !TeX encoding = utf8
+% !TeX program = pdflatex 
+% !TeX spellcheck = de_DE
+% !BIB program = biber
+
+\documentclass[master,german]{hgbthesis}
+% Zulässige Optionen in [..]: 
+%   Typ der Arbeit: diploma, master (default), bachelor, internship 
+%   Hauptsprache: german (default), english
+%%%----------------------------------------------------------
+
+\RequirePackage[utf8]{inputenc}		% bei der Verw. von lualatex oder xelatex entfernen!
+
+\graphicspath{{images/}}    % Verzeichnis mit Bildern und Grafiken
+\logofile{logo}				% Logo-Datei = images/logo.pdf (\logofile{}, wenn kein Logo gewünscht)
+\bibliography{references}  	% Biblatex-Literaturdatei (references.bib)
+
+%%%----------------------------------------------------------
+% Angaben für die Titelei (Titelseite, Erklärung etc.)
+%%%----------------------------------------------------------
+
+%%% Einträge für ALLE Arbeiten: -----------------------------
+\title{Analyse von Log-Files eines Web-Servers mithilfe eines Rechnerverbunds}
+\author{Steffen Hafner und Daniel Landler-Gärtner}
+\programname{Systemadministration}
+\placeofstudy{der Hochschule Ravensburg-Weingarten}
+\dateofsubmission{2017}{04}{05}	% {YYYY}{MM}{DD}
+
+%%%----------------------------------------------------------
+\begin{document}
+%%%----------------------------------------------------------
+
+%%%----------------------------------------------------------
+\frontmatter                    % Titelei (röm. Seitenzahlen)
+%%%----------------------------------------------------------
+
+\maketitle
+\tableofcontents
+
+%\include{thesis_DE/front/kurzfassung}		
+%\include{thesis_DE/front/abstract}			
+
+%%%----------------------------------------------------------
+\mainmatter          % Hauptteil (ab hier arab. Seitenzahlen)
+%%%----------------------------------------------------------
+
+\include{thesis_DE/chapters/einleitung}
+%\include{thesis_DE/chapters/grundbegriffe}
+\include{thesis_DE/chapters/problem}
+\include{thesis_DE/chapters/anforderung}
+\include{thesis_DE/chapters/loesung}
+%\include{thesis_DE/chapters/loesanf}
+%\include{thesis_DE/chapters/umsetzung}
+%\include{thesis_DE/chapters/fazit}
+
+%%%----------------------------------------------------------
+\appendix                                            % Anhang 
+%%%----------------------------------------------------------
+
+%\include{thesis_DE/back/anhang_a}	% Technische Ergänzungen
+%\include{thesis_DE/back/anhang_b}	% Inhalt der CD-ROM/DVD
+%\include{thesis_DE/back/anhang_c}	% Chronologische Liste der Änderungen
+%\include{thesis_DE/back/anhang_d}	% Quelltext dieses Dokuments
+
+%%%----------------------------------------------------------
+%\MakeBibliography                        % Quellenverzeichnis
+%%%----------------------------------------------------------
+
+%%%----------------------------------------------------------
+\end{document}
+%%%----------------------------------------------------------
