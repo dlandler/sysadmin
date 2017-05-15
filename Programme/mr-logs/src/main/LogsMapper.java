@@ -4,6 +4,14 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.client.HTable;
+import org.apache.hadoop.hbase.client.Put;
+import org.apache.hadoop.hbase.client.Result;
+import org.apache.hadoop.hbase.client.ResultScanner;
+import org.apache.hadoop.hbase.client.Scan;
+import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
@@ -33,10 +41,12 @@ public class LogsMapper extends Mapper<Text, Text, Text, Text> {
     private Matcher referer_matcher;
     private Matcher browser_matcher;
 
+    private int int_keycounter;
+
     public LogsMapper() {
     }
 
-    public void setup(Context context) {
+    public void setup(Context context) throws IOException {
 	ip_pattern = "\\d{1,3}(\\.\\d{1,3}){3}";
 	date_pattern = "\\d{2}/[a-zA-Z]{3}/\\d{4}";
 	time_pattern = "\\d{2}(:\\d{2}){2}";
@@ -52,6 +62,39 @@ public class LogsMapper extends Mapper<Text, Text, Text, Text> {
 	compiledStatuscodePattern = Pattern.compile(statuscode_pattern);
 	compiledRefererPattern = Pattern.compile(referer_pattern);
 	compiledBrowserPattern = Pattern.compile(browser_pattern);
+
+	Configuration conf = HBaseConfiguration.create();
+	conf.set("hbase.zookeeper.property.clientPort", "2181");
+	conf.set("hbase.zookeeper.quorum", "hbase");
+
+	HTable table = new HTable(conf, "metadata");
+	Scan scan = new Scan();
+	scan.addColumn(Bytes.toBytes("keycounter"), null);
+
+	ResultScanner scanner = table.getScanner(scan);
+
+	for (Result result = scanner.next(); result != null; result = scanner.next()) {
+	    String keycounter = new String(result.getValue(Bytes.toBytes("keycounter"), null));
+
+	    if (keycounter.isEmpty()) {
+		keycounter = "" + 0;
+	    }
+
+	    int_keycounter = Integer.parseInt(keycounter);
+
+	}
+	scanner.close();
+    }
+
+    public void cleanup(Context context) throws IOException {
+	Configuration conf = HBaseConfiguration.create();
+	conf.set("hbase.zookeeper.property.clientPort", "2181");
+	conf.set("hbase.zookeeper.quorum", "hbase");
+	HTable table = new HTable(conf, "metadata");
+	Put put = new Put(Bytes.toBytes("1"));
+	put.add(Bytes.toBytes("keycounter"), null, Bytes.toBytes("" + int_keycounter));
+	table.put(put);
+	table.close();
     }
 
     public void map(Text key, Text value, Mapper<Text, Text, Text, Text>.Context context)
@@ -60,14 +103,17 @@ public class LogsMapper extends Mapper<Text, Text, Text, Text> {
 	String sCurrentLine = key.toString();
 	String sValues = null;
 
+	int_keycounter++;
+	key = new Text("" + int_keycounter);
+
 	createMatcher(sCurrentLine);
 
 	if (ip_matcher.find()) {
-	    key = new Text(ip_matcher.group());
+	    sValues = ip_matcher.group() + ";";
 	}
 
 	if (date_matcher.find()) {
-	    sValues = date_matcher.group() + ";";
+	    sValues += date_matcher.group() + ";";
 	}
 
 	if (time_matcher.find()) {

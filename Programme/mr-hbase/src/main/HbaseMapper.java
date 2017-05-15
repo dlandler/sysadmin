@@ -16,7 +16,8 @@ public class HbaseMapper extends TableMapper<Text, IntWritable> {
 
     public void map(ImmutableBytesWritable row, Result value, Context context)
 	    throws IOException, InterruptedException {
-	String val = new String(value.getValue(Bytes.toBytes("statuscode"), null));
+
+	String val = new String(value.getValue(Bytes.toBytes("ip"), null));
 	text.set(val); // we can only emit Writables...
 
 	context.write(text, ONE);

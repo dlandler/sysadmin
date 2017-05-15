@@ -35,7 +35,7 @@ public class HbaseDriver extends Configured implements Tool {
     }
 
     public int run(String[] args) throws IOException {
-	log.log(Level.INFO, "Starte Map-Reduce-Job 'Logs Driver'...");
+	log.log(Level.INFO, "Starte Map-Reduce-Job 'Logs-HBase Driver'...");
 
 	Configuration conf = HBaseConfiguration.create();
 	conf.set("hbase.zookeeper.property.clientPort", "2181");

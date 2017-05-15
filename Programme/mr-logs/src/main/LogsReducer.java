@@ -26,7 +26,8 @@ public class LogsReducer extends Reducer<Text, Text, Text, Text> {
 	    textValues = val;
 	}
 
-	// 0: Date, 1: Time, 2: Request, 3: Statuscode, 4: Referer, 5: Browser
+	// 0: IP-Address 1: Date, 2: Time, 3: Request, 4: Statuscode, 5:
+	// Referer, 6: Browser
 	columns = sValues.split(";");
 
 	writeToHbase(key.toString(), columns);
@@ -40,12 +41,13 @@ public class LogsReducer extends Reducer<Text, Text, Text, Text> {
 	conf.set("hbase.zookeeper.quorum", "hbase");
 	HTable table = new HTable(conf, "logs");
 	Put put = new Put(Bytes.toBytes(key));
-	put.add(Bytes.toBytes("date"), null, Bytes.toBytes(columns[0]));
-	put.add(Bytes.toBytes("time"), null, Bytes.toBytes(columns[1]));
-	put.add(Bytes.toBytes("request"), null, Bytes.toBytes(columns[2]));
-	put.add(Bytes.toBytes("statuscode"), null, Bytes.toBytes(columns[3]));
-	put.add(Bytes.toBytes("referer"), null, Bytes.toBytes(columns[4]));
-	put.add(Bytes.toBytes("browser"), null, Bytes.toBytes(columns[5]));
+	put.add(Bytes.toBytes("ip"), null, Bytes.toBytes(columns[0]));
+	put.add(Bytes.toBytes("date"), null, Bytes.toBytes(columns[1]));
+	put.add(Bytes.toBytes("time"), null, Bytes.toBytes(columns[2]));
+	put.add(Bytes.toBytes("request"), null, Bytes.toBytes(columns[3]));
+	put.add(Bytes.toBytes("statuscode"), null, Bytes.toBytes(columns[4]));
+	put.add(Bytes.toBytes("referer"), null, Bytes.toBytes(columns[5]));
+	put.add(Bytes.toBytes("browser"), null, Bytes.toBytes(columns[6]));
 	table.put(put);
 	table.close();
     }
